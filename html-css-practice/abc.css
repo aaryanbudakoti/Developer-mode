@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: #2A1503;
+    line-height: 30px;
+    text-align: center;
+}
+
+h1{
+    background-color: red;
+    text-decoration: underline;
+}
+h3{
+    color: black;
+}
+span{
+    text-decoration: none;
+    color: rgb(0, 255, 0 );
+}
+
+button{
+    background-color: white;
+    color: blueviolet;
+}
+/* hex color of black is #000 */
+
