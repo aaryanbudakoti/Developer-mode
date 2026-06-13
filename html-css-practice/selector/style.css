@@ -1,0 +1,128 @@
+/* Universal Selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* element selector */
+
+h3{
+    color: purple;
+}
+
+h1,h3{
+    color: #b92b27;
+}
+
+
+
+/* id selector - each element usually has unique id */
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color:#b92b27 ;
+    color: white;
+    }
+
+/* class selector - many elements can have common class for styling them */
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+/* descendant selectors */
+.post a {
+    color: purple;
+    background-color: yellow;
+ }
+
+ nav ul li a {
+    color: hotpink;
+ } 
+
+
+ /* Sibling combinator - element in the same level*/
+
+ p + h3 {
+    text-decoration: underline;
+ }
+
+ .upvote + button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* child combinator - one element inside parent element */
+
+div > input {
+    background-color: darksalmon ;
+}
+
+/* attribute selector */
+
+input[type="text"]{
+    color: red;  /*the text in the input will be red */
+}
+input[type="password"]{
+    color: green;
+    /*the text in the input will be green */
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* pseudo class - a keyword added to selector that specifies a special state of the selected element(s) */
+
+#login:hover {
+    background-color: pink;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+button:active{
+    background-color: rgb(229, 16, 51);
+    color: black;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+ /* psuedo Element - psuedo element is a special selector that allows you to style a specific part of an element */
+h1::first-letter{ 
+    color: black;
+}
+
+p::first-line{
+    color: red;
+    background-color: yellow;
+
+}
+
+p::selection{
+    color: white;
+    background-color: green ;
+} 
+/* to change css of a selected element */
+
+h3{
+    background-color: yellow;
+
+}
+h3{
+    background-color: pink;
+} /* the last one will be applied to the element - cascading property / cascade  */
