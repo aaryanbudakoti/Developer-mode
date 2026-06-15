@@ -1,0 +1,35 @@
+
+div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    /* border-radius: 50%; - CIRCLE SHAPED */
+    /* border-bottom : 5px yellow dashed  ; */
+    padding: 20px; /* padding-left, right, top, bottom */
+}
+/* empty div has 0 height */
+
+/* border properties major - 
+1. border-width
+2. border-style
+3. border-color
+4. border sides - border-left, right, top, bottom
+*/
+
+h1 {
+    width: 500px;
+    border : 5px dashed black;
+}
+/* border radius - border edge manipulation (roundness) */
+
+button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: chocolate;
+}

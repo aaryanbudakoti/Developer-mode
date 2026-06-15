@@ -94,7 +94,14 @@
 <!-- selector specificity -  specificity is an algorithm that calculates the weight of a CSS selector
   more - specific selectors will override less specific selectors
   Importance is in following order - inline style > id selector > class selector > element selector
-   
 
+  Example in css file - .post{color: red;}  --- element selector
+                    .follow{color: green;} --- class selector
+                    #login{color: blue;} --- id selector
+                    specificity of .post is 0,0,1,0
+                    specificity of .follow is 0,0,1,0
+                    specificity of #login is 0,1,0,0
+                    so order of specificity is #login > .follow > .post 
+                       
 
 -->
