@@ -10,6 +10,7 @@ div{
     /* border-radius: 50%; - CIRCLE SHAPED */
     /* border-bottom : 5px yellow dashed  ; */
     padding: 20px; /* padding-left, right, top, bottom */
+    margin-bottom: 30px;
 }
 /* empty div has 0 height */
 
@@ -33,3 +34,10 @@ button {
     padding-right: 25px;
     background-color: chocolate;
 }
+
+/* margin - space outside of border
+1. margin-left
+2. margin-top
+3. margin-right
+4. margin- bottom
+ */
