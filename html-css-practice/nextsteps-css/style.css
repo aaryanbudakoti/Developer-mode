@@ -1,0 +1,19 @@
+#rgba {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 255,0,1);
+    /* change alpha to 0 and watch the difference */
+}
+
+#opacity{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    opacity: 1;
+    /* change opacity to 0 and watch the difference */
+}
+
+p{
+  /* what did you find out? */
+    padding: 40px;
+}
