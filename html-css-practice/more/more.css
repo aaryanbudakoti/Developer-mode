@@ -1,0 +1,19 @@
+body{
+    background-image: url(caferacer.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; bg will remain in the same size and will repeat */
+    
+    /*  bg will cover the entire page and will not repeat */
+    /* background-size: auto  bg will remain in the same size and will not repeat */
+}
+div{
+    background-color: none;
+    width: 400px;
+    height: 300px;
+}
+h1{
+    text-align: center;
+    color: white;
+    
+}

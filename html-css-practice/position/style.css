@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    background:linear-gradient(90deg,#0061ff,#60efff);
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+    /* no change in position */
+    }
+
+#relative{ 
+    background-color: cyan;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    /* moves down and right by 100px */
+
+    /* position is relative to the nearest positioned ancestor , which is the body element in this case */
+    }
+
+#absolute{
+    background-color: red;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    /* moves down and right by 100px */
+
+    /* position is relative to the nearest positioned ancestor , which is the body element in this case */
+    }
+#fixed{
+    background-color: blue;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    /* moves down and right by 100px and the div is fixed to the viewport and is visible regardless of where you scroll  */
+
+    /* Difference between the position values- */
+    /* static- default value, the element is positioned according to the normal flow of the document
+    relative- the element is positioned relative to its normal position
+    absolute- the element is positioned relative to its nearest positioned ancestor
+    fixed- the element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled */
+    }
