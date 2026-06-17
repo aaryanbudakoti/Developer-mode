@@ -1,0 +1,60 @@
+/* there aree different transform functions */
+/* 1. translate() - moves an element in 2D space */
+/* 2. rotate() - rotates an element around its center */
+/* 3. scale() - resizes an element */
+/* 4. skew() - distorts an element */
+
+section{
+    margin-top: 50px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 20px auto ;
+}
+
+div:nth-of-type(2n){
+    background-color: blue;
+}
+
+div:nth-of-type(3n){
+    background-color: green;
+}
+
+/* transform functions */
+/* rotate */
+#one{
+    transform : rotate(90deg);
+}
+/* scale */
+#two{
+    transform : scale(0.5,1.5);
+    /* scaleX, scaleY can also be used to scale per dimension */
+/* can be applied to 1-d , 2-d and 3-d */
+}
+
+#three{
+    transform : translate(100px,-100px);
+
+    /* transform: translateX(100px); */
+    /* transform: translateY(-100px); */
+
+    /* moving along 2-d plane- x and y axes */
+}
+#four{
+    transform : skew(30deg,40deg);
+    /* skewX, skewY can also be used to skew per dimension */
+}
+
+#five{
+    transform : rotate(45deg) scale(1.5,0.5) translate(100px) skew(30deg,10deg);
+}
+
+/* box-shadow property -  */
+div{
+    box-shadow: 5px 5px 10px pink;
+    /* shadow has 5px offset in x and y directions and 10px blur radius  */
+}
+
