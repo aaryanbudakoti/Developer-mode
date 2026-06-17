@@ -1,0 +1,26 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+    transition: 1s 0.5s ease-in; /* transition: duration , delay timing-function */
+}
+
+div:hover{
+    background-color: brown;
+    border-radius: 50%;
+}
+/* transition - 1s is the duration of the transition effect */
+/* This is a simple hover effect that changes the background color and makes the div circular */
+
+/* transition shorthand */
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+    transition: background-color 1s, border-radius 1s;
+}
+
+div:hover{
+    background-color: brown;
+    border-radius: 50%;
+} */
