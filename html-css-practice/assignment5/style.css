@@ -1,0 +1,30 @@
+.outer{
+    height: 400px;
+    width: 400px;
+    border: 2px lightskyblue solid;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+   
+    
+
+}
+
+h1{
+    font-size: 50px;
+    
+
+}
