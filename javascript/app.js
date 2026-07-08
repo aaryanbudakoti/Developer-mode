@@ -16,17 +16,32 @@
 
 //  popcorn bucket Price calculator
 
-let popcorn = "L" ;
+// let popcorn = "L" ;
 
-if(popcorn === "XL" ){
-    console.log("Price is 250")
-}
-else if(popcorn === "L" ){
-    console.log("Price is 200")
-}
-else if(popcorn === "M" ){
-    console.log("Price is 100")
-}
-else if(popcorn === "S" ){
-    console.log("Price is 50")
-}
+// if(popcorn === "XL" ){
+//     console.log("Price is 250")
+// }
+// else if(popcorn === "L" ){
+//     console.log("Price is 200")
+// }
+// else if(popcorn === "M" ){
+//     console.log("Price is 100")
+// }
+// else if(popcorn === "S" ){
+//     console.log("Price is 50")
+// }
+
+
+
+// Alerts and Prompt
+
+// alert("something is wrong")
+
+// console.error("this is an error")
+// console.warn("warning")
+// let name=prompt("enter name")
+// console.log(name);
+
+let name1= prompt("enter first name")
+let name2= prompt("enter last name")
+console.log(`Hello ${name1} ${name2}`)
