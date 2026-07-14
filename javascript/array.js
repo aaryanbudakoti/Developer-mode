@@ -28,7 +28,7 @@ let allColors = primary.concat(secondary)
 
 // console.log(primary.reverse())
 
-// splice - mmake changes in original array (start,deletecount, replace element)
+// splice - make changes in original array (starting index,deletecount, replace element)
 
 let colors = ["red","pink","white", "blue"," orange" ]
 console.log(colors.splice(3))
