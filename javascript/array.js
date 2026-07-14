@@ -72,3 +72,10 @@ console.log(arr)  // [1,2,3,4,5,6]
 // we can push an element in a constant array because we are not changing the address of the array. We are only changing the elements of the array. But if we try to reassign the array to a new array, it will give an error.
 // arr = [1,2,3]  // TypeError: Assignment to constant variable.
 // we can perform certain operations on constant arrays like push, pop, shift, unshift, splice, sort, reverse, etc. But we cannot reassign the array to a new array i.e. change its memory location. We can also change the elements of the array using index. For example, arr[0] = 10 will change the first element of the array to 10. But we cannot reassign the array to a new array i.e. change its memory location.
+
+
+// nested arrays
+let nestedArr = [[1,2,3],[4,5,6],[7,8,9]] // 2D array of size 3x3
+console.log(nestedArr[0][0])  // 1
+console.log(nestedArr[1][1])  // 5
+console.log(nestedArr[2][2])  // 9
