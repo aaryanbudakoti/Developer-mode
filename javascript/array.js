@@ -79,3 +79,4 @@ let nestedArr = [[1,2,3],[4,5,6],[7,8,9]] // 2D array of size 3x3
 console.log(nestedArr[0][0])  // 1
 console.log(nestedArr[1][1])  // 5
 console.log(nestedArr[2][2])  // 9
+// there can be multiple levels of nesting in arrays. For example, we can have a 3D array of size 3x3x3. We can access the elements of a nested array using multiple indices. For example, nestedArr[0][0][0] will give us the first element of the first array of the first array. We can also use loops to iterate through the elements of a nested array. For example, we can use a for loop to iterate through the elements of a 2D array and print them.
