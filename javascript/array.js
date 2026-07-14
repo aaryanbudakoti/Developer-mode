@@ -40,4 +40,16 @@ console.log(colors)
 console.log(colors.splice(0,1,"black"))
 console.log(colors)
 
+// sort method - sort the array in ascending order
+let marks = [ 90, 80, 70, 60, 50, 40, 30, 20, 10]
+console.log(marks.sort())
+let numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9]
+console.log(numbers.sort())
+// sorting of numbers in ascending order is not working properly because sort method converts the numbers into string and then sorts them. So, we need to use compare function to sort the numbers in ascending order.
+let chars = ["a","c","b","e","d"]
+console.log(chars.sort())
+// mostly used for string
+
+
+
 
