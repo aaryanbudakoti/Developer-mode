@@ -25,7 +25,33 @@ months.splice(0,2,'july','june');
 
 // LOOPS
 // FOR LOOPs
-for(let i = 1;i<5;i++){
-    console.log(i)
+for(let i = 1;i<=5;i++){
+    // console.log(i)
 }
 
+
+for(let i =10; i>=1;i--){
+    // console.log(i*5);
+}
+
+// print all odd numbers from 1 to 15
+
+for(let j = 1 ; j<=15; j = j+2){
+    console.log(j);
+
+}
+
+// print all even numbers from 1 to 15
+
+for(let j=0;j<15;j=j+2){
+    console.log(j);
+}
+
+// nested loop
+
+for( let i = 1; i<=5;i++){
+    console.log(`Outer Loop ${i}`)
+    for( let j= 1; j<=5;j++){
+        console.log(j);
+    }
+}
