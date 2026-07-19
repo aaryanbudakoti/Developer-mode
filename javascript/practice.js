@@ -44,14 +44,21 @@ for(let j = 1 ; j<=15; j = j+2){
 // print all even numbers from 1 to 15
 
 for(let j=0;j<15;j=j+2){
-    console.log(j);
+    // console.log(j);
 }
 
 // nested loop
 
 for( let i = 1; i<=5;i++){
-    console.log(`Outer Loop ${i}`)
+    // console.log(`Outer Loop ${i}`)
     for( let j= 1; j<=5;j++){
-        console.log(j);
+        // console.log(j);
     }
+}
+
+// While Loop
+let i =1;
+while(i<5){
+    console.log(i);
+    i=i+1;
 }
