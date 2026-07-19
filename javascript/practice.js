@@ -19,6 +19,13 @@ months.splice(0,2,'july','june');
                     [null,'x',null],
                     ['0',null,'x']
                 ];
-                console.log(tictactoe[0][1]); //null
+                // console.log(tictactoe[0][1]); //null
                 tictactoe[0][1]='0';
-                console.log(tictactoe[0][1]); //zero
+                // console.log(tictactoe[0][1]); //zero
+
+// LOOPS
+// FOR LOOPs
+for(let i = 1;i<5;i++){
+    console.log(i)
+}
+
