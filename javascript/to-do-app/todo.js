@@ -25,5 +25,8 @@ while(true){
         console.log("task deleted");
         
     }
+    else{
+        console.log("wrong request");
+    }
      req = prompt("Please enter your request");
     }
