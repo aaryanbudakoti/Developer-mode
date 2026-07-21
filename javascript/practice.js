@@ -57,8 +57,27 @@ for( let i = 1; i<=5;i++){
 }
 
 // While Loop
-let i =1;
-while(i<5){
-    console.log(i);
-    i=i+1;
+// let i =1;
+// while(i<5){
+    // console.log(i);
+    // i=i+1;
+
+
+// let b =1;
+// while(b<=5){
+//     if (b==3){
+//         break;
+//     }
+//     console.log(b);
+//     b++;
+// }
+
+
+
+// Loops with arrays
+
+let fruits = ["mango", "apple", "banana", "litchi"];
+fruits.push("pineapple")
+for(let i = 0; i<fruits.length;i++){
+    console.log(i+1,fruits[i]);
 }

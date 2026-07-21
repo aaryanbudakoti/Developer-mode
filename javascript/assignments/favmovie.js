@@ -2,8 +2,13 @@ const favMovie = "avengers";
 
 let guess = prompt("Guess my Favourite Movie ");
 
-while((guess.toLowerCase != favMovie.toLowerCase ) && (guess == "quit")){
+while(guess.toLowerCase != favMovie.toLowerCase ) {
+    if(guess == "quit"){
+        console.log("you quit");
+        break;
+    }
     guess = prompt("wrong guess, try again");
+
 
 }
 
