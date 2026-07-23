@@ -62,31 +62,39 @@
 // console.log(post.tags);
 
 
-const obj = {
-    1: "a",
-    2 : "b",
-    true : "c",
-    null : "d",
-    undefined : "e"
-}
-console.log(obj.undefined) // e
-console.log(obj[null]) //d
-console.log(obj[true]) //c
+// const obj = {
+//     1: "a",
+//     2 : "b",
+//     true : "c",
+//     null : "d",
+//     undefined : "e"
+// }
+// console.log(obj.undefined) // e
+// console.log(obj[null]) //d
+// console.log(obj[true]) //c
 
-// nested objects
-const classInfo = {
-    aaryan : {
-            grade: "A",
-            city : "Ghaziabad"
-    },
-    aabhas : {
-        grade : "B",
-        city : "Ghaziabad"
+// // nested objects
+// const classInfo = {
+//     aaryan : {
+//             grade: "A",
+//             city : "Ghaziabad"
+//     },
+//     aabhas : {
+//         grade : "B",
+//         city : "Ghaziabad"
 
-    },
-    aman : {
-        grade: "C",
-        city : "Ghaziabad"
+//     },
+//     aman : {
+//         grade: "C",
+//         city : "Ghaziabad"
 
-    }
-}
+//     }
+// }
+// random number bw 1 to 100
+let random = Math.floor(Math.random()*100) +1 ;
+console.log(random)
+
+// random number bw 1 to 5
+
+let ran = Math.floor(Math.random()*5) +1 ;
+console.log(ran)
