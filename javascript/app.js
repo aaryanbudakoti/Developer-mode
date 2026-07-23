@@ -73,5 +73,20 @@ console.log(obj.undefined) // e
 console.log(obj[null]) //d
 console.log(obj[true]) //c
 
+// nested objects
+const classInfo = {
+    aaryan : {
+            grade: "A",
+            city : "Ghaziabad"
+    },
+    aabhas : {
+        grade : "B",
+        city : "Ghaziabad"
 
+    },
+    aman : {
+        grade: "C",
+        city : "Ghaziabad"
 
+    }
+}
