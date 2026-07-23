@@ -91,10 +91,18 @@
 //     }
 // }
 // random number bw 1 to 100
-let random = Math.floor(Math.random()*100) +1 ;
-console.log(random)
+// let random = Math.floor(Math.random()*100) +1 ;
+// console.log(random)
 
-// random number bw 1 to 5
+// // random number bw 1 to 5
 
-let ran = Math.floor(Math.random()*5) +1 ;
-console.log(ran)
+// let ran = Math.floor(Math.random()*5) +1 ;
+// console.log(ran)
+
+
+
+
+let max = 12;
+// guessing game between 0 to max
+
+console.log(Math.floor(Math.random()*max)+1);
