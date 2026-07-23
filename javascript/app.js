@@ -49,14 +49,29 @@
 
 // Objects
 
-const post = {
-    username : "@aaryanbudakoti",
-    content : "lifestyle",
-    likes: 993,
-    reposts : 5,
-    tags : ["@aaryan","workoutwaaryan"]
+// const post = {
+//     username : "@aaryanbudakoti",
+//     content : "lifestyle",
+//     likes: 993,
+//     reposts : 5,
+//     tags : ["@aaryan","workoutwaaryan"]
 
+// }
+// console.log(post);
+// console.log(post.content);
+// console.log(post.tags);
+
+
+const obj = {
+    1: "a",
+    2 : "b",
+    true : "c",
+    null : "d",
+    undefined : "e"
 }
-console.log(post);
-console.log(post.content);
-console.log(post.tags);
+console.log(obj.undefined) // e
+console.log(obj[null]) //d
+console.log(obj[true]) //c
+
+
+
