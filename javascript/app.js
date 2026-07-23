@@ -42,6 +42,21 @@
 // let name=prompt("enter name")
 // console.log(name);
 
-let name1= prompt("enter first name")
-let name2= prompt("enter last name")
-console.log(`Hello ${name1} ${name2}`)
+// let name1= prompt("enter first name")
+// let name2= prompt("enter last name")
+// console.log(`Hello ${name1} ${name2}`)
+
+
+// Objects
+
+const post = {
+    username : "@aaryanbudakoti",
+    content : "lifestyle",
+    likes: 993,
+    reposts : 5,
+    tags : ["@aaryan","workoutwaaryan"]
+
+}
+console.log(post);
+console.log(post.content);
+console.log(post.tags);
