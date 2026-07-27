@@ -131,4 +131,8 @@ hi = function(){
     console.log("namaste")
 }
 
-multipleGreet(hi, 5); // this will call the hi function 5 times
+// multipleGreet(hi, 5); // this will call the hi function 5 times
+
+multipleGreet(function(){
+    console.log("Hello")
+}, 3) // this will call the anonymous function 3 times
