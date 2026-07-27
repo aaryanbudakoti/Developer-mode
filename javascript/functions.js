@@ -136,3 +136,49 @@ hi = function(){
 multipleGreet(function(){
     console.log("Hello")
 }, 3) // this will call the anonymous function 3 times
+
+
+
+// higher order function that returns a function
+
+function oddeven(num){
+    if(num%2==0){
+        return function(){
+            console.log("Even number")
+        }
+    }
+    else{
+        return function(){
+            console.log("Odd number")
+        }
+    }
+}
+
+let check = oddeven(5);
+check(); // this will call the inner function that checks if the number is odd or even b 
+
+
+
+
+
+// methods - actions can be performed on objects using methods. Methods are functions that are properties of an object.
+
+const calculator = {
+    add: function(a,b){
+        return a+b;
+    },
+    subtract: function(a,b){
+        return a-b;
+    },
+    multiply: function(a,b){
+        return a*b;
+    },
+    divide: function(a,b){
+        return a/b;
+    }
+}
+
+console.log(calculator.add(10,5));
+console.log(calculator.subtract(10,5));
+console.log(calculator.multiply(10,5));
+console.log(calculator.divide(10,5));
