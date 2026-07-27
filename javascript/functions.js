@@ -88,5 +88,47 @@ function concat(str){
     }
     return result;
 }
-console.log(concat(arr))
+// console.log(concat(arr));
 
+
+// lexical scope is the accessibility of variables based on their location within the code  
+// inner function can access the variables of outer function but outer function cannot access the variables of inner function
+function outer(){
+    let outerVar = "I am from outer function"
+    function inner(){
+        let innerVar = "I am from inner function"
+        console.log(outerVar);
+        console.log(innerVar);
+    }
+    // inner();
+    // console.log(innerVar); // this will give error because innerVar is not accessible here
+}
+// outer();
+
+//  function expression
+
+const sum = function(a,b){
+    return a+b
+}
+console.log(sum(1,2));
+
+let hi = function (){
+    console.log("Hello")
+}
+
+hi();
+
+
+// Higher order function is a function that takes another function as an argument or returns a function as a result
+
+function multipleGreet(greet, n){
+    for (let i = 0; i < n; i++) {
+        greet();
+    }
+
+}
+hi = function(){
+    console.log("namaste")
+}
+
+multipleGreet(hi, 5); // this will call the hi function 5 times
