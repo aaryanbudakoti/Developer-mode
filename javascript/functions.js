@@ -185,3 +185,20 @@ console.log(calculator.divide(10,5));
 
 
 // this is possible because internally arrays and strings are objects in javascript and they have methods that can be called on them.
+
+// method shorthand
+
+const calculator2 = {
+    add(a,b){
+        return a+b;
+    },
+    subtract(a,b){
+        return a-b;
+    },
+    multiply(a,b){
+        return a*b;   
+    },
+    divide(a,b){
+        return a/b;
+    }
+}
