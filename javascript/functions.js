@@ -284,3 +284,32 @@ function printyourName(Name){
 
 
 // This with arrow functions
+// function scope - calling Object
+// arrow function - lexical scoping (who called the parent?)
+
+const student = {
+    name: "aaryan",
+    marks: 85,
+    prop: this, //global scope
+    getName: function (){
+        console.log(this)
+        return this.name;
+    },
+    getMarks: ()=>{
+        console.log(this) // parent scope - as parent is window
+        return this.marks; // not defined - because parent is window
+    },
+    getInfo1: function(){
+        setTimeout(()=>{
+            console.log(this); //student
+        },2000);
+    },
+    getInfo2: function(){
+        setTimeout(function (){
+            console.log(this) //window object  
+    },2000);
+
+},
+// console.log(student)
+
+}
