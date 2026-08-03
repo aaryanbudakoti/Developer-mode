@@ -287,29 +287,45 @@ function printyourName(Name){
 // function scope - calling Object
 // arrow function - lexical scoping (who called the parent?)
 
-const student = {
-    name: "aaryan",
-    marks: 85,
-    prop: this, //global scope
-    getName: function (){
-        console.log(this)
-        return this.name;
-    },
-    getMarks: ()=>{
-        console.log(this) // parent scope - as parent is window
-        return this.marks; // not defined - because parent is window
-    },
-    getInfo1: function(){
-        setTimeout(()=>{
-            console.log(this); //student
-        },2000);
-    },
-    getInfo2: function(){
-        setTimeout(function (){
-            console.log(this) //window object  
-    },2000);
+// const student = {
+//     name: "aaryan",
+//     marks: 85,
+//     prop: this, //global scope
+//     getName: function (){
+//         console.log(this)
+//         return this.name;
+//     },
+//     getMarks: ()=>{
+//         console.log(this) // parent scope - as parent is window
+//         return this.marks; // not defined - because parent is window
+//     },
+//     getInfo1: function(){
+//         setTimeout(()=>{
+//             console.log(this); //student - direct parent of the getInfo1 function
+//         },2000);
+//     },
+//     getInfo2: function(){
+//         setTimeout(function (){
+//             console.log(this) //window object - parent of parent of the getInfo2 function (student -> window)
+//     },2000);
 
-},
+// },
 // console.log(student)
 
-}
+// }
+
+
+
+// arrow function to return square of n
+
+// let sq = n =>(n*n)
+// console.log(sq(2));
+// let hola(){console.log("Hello World")}
+
+    let id = setInterval(()=>{
+        console.log("Hello World")
+    },2000);
+
+    setTimeout(()=>{
+        clearInterval(id);
+    },10000);
