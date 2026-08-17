@@ -56,10 +56,11 @@ function printyourName(Name){
 //     console.log(av);
 // }
 
-// // avg(10,12,15);
+// avg(10,12,15);
 
 
 // // multiplication table function
+
 // function mulTable(num){
 //     for(let i=1; i<=10;i++){
 //         console.log(num*i);
@@ -67,6 +68,7 @@ function printyourName(Name){
 //     }
 // }
 // // mulTable(73);
+
 // // sum of n numbers (1 to n)
 // function sumN(number){
 //     let sum = 0
@@ -229,6 +231,7 @@ function printyourName(Name){
 // // Try and Catch - error handling
 // console.log("Hello");
 // console.log("Hello");
+
 // // try - allows you to define a block of code to be tested for errors while it is being executed. 
 // try {
 // console.log(a);
