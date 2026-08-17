@@ -11,5 +11,14 @@
 
 // console.dir(document.querySelector("div a"));
 
-console.dir(document.querySelectorAll("div a"));
-console.dir(document.querySelectorAll(" p "));
+// console.dir(document.querySelectorAll("div a"));
+// console.dir(document.querySelectorAll(" p "));
+let links = document.querySelectorAll('.box a');
+
+// for(let i =0 ; i<links.length ; i++){
+//     links[i].style.color = "green";
+// }
+
+for(link of links){
+    link.style.color = "red";
+}
