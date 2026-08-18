@@ -2,6 +2,9 @@ body {
   font-family: Arial;
 }
 
+.red {
+  color: red;
+}
 #mainImg {
   width: 35%;
 }
