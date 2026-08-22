@@ -19,8 +19,13 @@ function sayName(){
 // element.addEventListener(event,callback fxn)
 for (btn of btns){
 
-    btn.addEventListener("click",sayHello);
-    btn.addEventListener("click",sayName);
+    // btn.addEventListener("click",sayHello);
+    // btn.addEventListener("click",sayName);
+    btn.addEventListener("dblclick",function (){
+        console.log("you double clicked the button bro!")
+    });
 
 }
 
+// There are many other events
+// Animations , mouse Events (auxclick, click, contextmenu etc.)
