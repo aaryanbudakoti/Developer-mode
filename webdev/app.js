@@ -74,6 +74,7 @@ btn.addEventListener("dblclick", function (event){
 // "keydown" , "keyup"
 let inp = document.querySelector("input");
 inp.addEventListener("keyup",function (event){
-    console.dir(event);
+    console.dir(`key = ${event.key}`);
+    console.dir(`code = ${event.code}`);
     console.log("key was pressed")
 });
