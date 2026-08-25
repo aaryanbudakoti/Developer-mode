@@ -42,11 +42,38 @@
 // });
 
 
-// this in event listener
-let btn = document.querySelector("button");
+// // this in event listener
+// let btn = document.querySelector("button");
+// let h2 = document.querySelector("h2");
+// let h3 = document.querySelector("h3");
+// let p = document.querySelector("p");
 
-btn.addEventListener("click", function(){
-    console.dir(this.innerText)
-    this.style.backgroundColor = "blue";
-    this.style.color = "white";
+// function changeColor (){
+//     console.dir(this.innerText);
+//     this.style.backgroundColor = "pink";
+// }
+// btn.addEventListener("click", changeColor);
+// h2.addEventListener("click", changeColor);
+// h3.addEventListener("click", changeColor);
+// p.addEventListener("click", changeColor);
+
+
+
+// keyboard events
+let btn = document.querySelector("button");
+btn.addEventListener("click", function (event){
+    console.log(event); // pointer event
+    console.log("button clicked");
+});
+
+btn.addEventListener("dblclick", function (event){
+    console.log(event); // pointer event
+    console.log("button clicked");
+});
+
+// "keydown" , "keyup"
+let inp = document.querySelector("input");
+inp.addEventListener("keyup",function (event){
+    console.dir(event);
+    console.log("key was pressed")
 });
