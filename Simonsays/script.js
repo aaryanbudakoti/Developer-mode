@@ -59,3 +59,6 @@ for(btn of allBtns){
 
 // three();
 //  // Call stack and Function call Example
+
+
+// js is single threaded, but browser is able to handle more than one line of code at the same time because of the event loop and callback queue.
