@@ -62,3 +62,7 @@ for(btn of allBtns){
 
 
 // js is single threaded, but browser is able to handle more than one line of code at the same time because of the event loop and callback queue.
+
+// async code is code that is executed after a certain event occurs, like a click or a timer. It allows the browser to continue executing other code while waiting for the event to occur.
+
+// callback function is a function that is passed as an argument to another function and is executed after the first function has completed. It allows for asynchronous code execution and helps to avoid blocking the main thread.
