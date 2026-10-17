@@ -45,3 +45,17 @@ for(btn of allBtns){
     btn.addEventListener("click",btnPress)
 }
 
+// function one(){
+//     return 1;
+// }
+
+// function two(){
+//     return one() + one();
+// }
+
+// function three(){
+//     let three = two() + one();
+// }
+
+// three();
+//  // Call stack and Function call Example
