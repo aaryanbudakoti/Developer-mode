@@ -169,11 +169,37 @@
 
 // 28. 
 
-let arr = [1,2,3,4]
-for (let i = 1 ; i <= arr.length ; i++){
-    let temp
-    temp = arr[i]
-    arr[i]=arr[arr.length-i]
-    arr[arr.length-i]=temp
-}
-console.log(arr);
+// let arr = [1,2,3,4]
+// for (let i = arr.length - 1 ; i>=0 ; i--){
+// console.log(arr[i]);
+    
+// }
+
+// 29.
+// let i =1
+// while (i<101){
+//     if(i%5==0){
+//         console.log(i)
+//     }
+//     i++
+// }
+
+
+// 30.
+// let obj1= {
+//     name : "aryan",
+//     age : 21,
+//     roll : 12412
+// }
+
+// for(keys in obj1){
+//     console.log(keys,obj1[keys]);
+// }
+
+
+// // 31.
+let movies = ["MIB","Predestination", "Shutter Island", "It" ]
+
+// console.log(movies);
+// console.log(movies[1])
+
