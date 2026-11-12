@@ -70,14 +70,110 @@
 
 // 15.
 
-let num1="21"
-let num2=21
-console.log(num1)
-console.log(num2) 
-console.log(typeof num1); //string
+// let num1="21"
+// let num2=21
+// console.log(num1)
+// console.log(num2) 
+// console.log(typeof num1); //string
 
 // console.log(num1==num2) //equality operator - true
 // console.log(num1===num2) //strict equality operator - false
 
 
 // 16.
+// const myLoveLife= false ;
+// console.log(typeof myLoveLife);
+
+// // 17.
+// const name = "aaryan"
+// const age = 21
+// const married = false
+// console.log(name)
+// console.log(age)
+// console.log(married)
+
+// 18.
+
+// let notKnow
+// console.log(notKnow); //undefined (clearly)
+
+
+// console.log(null == null); //true
+// console.log(null === null); //true
+
+
+// 19.
+
+// let variable = null
+// console.log(variable); // null - null , undefined - undefined
+
+// 20.
+
+// const arr = [1,2,3,4,5]
+// arr=[1,22,33,44,55];
+// console.log(arr); //assignment to constant variable so, TypeError
+
+
+// 21.
+
+// for(let i=0 ; i<=50 ; i++){
+//     console.log(i)
+// }
+
+// 22.
+// let i =1
+// while (i<11){
+//     console.log(i)
+//     i++
+// }
+
+// // 23.
+// let string = "aaryan"
+// for(s of string){
+//     console.log(s) //for of loop
+// }
+
+// // 24.
+// for (let i =1 ; i <21 ;i++){
+//     if( i %2 !=0){
+//         console.log(i)
+
+//     }
+// }
+
+
+// 25.
+// let i =5
+// do{
+//     console.log(i)
+//     i--
+// } while(i>0)
+
+//  26.
+// res=1
+// for(let i =1 ;i<=5;i++){
+//     res = res *i 
+// }
+// console.log(res);
+
+// 27.
+// for (let i= 1 ;i<=3;i++){
+//     for ( let j = 1 ; j <= 3 ; j++){
+//         for(let k = 1 ; k<=3;k++){
+//         console.log(i+" "+j+" "+k);
+//         }
+        
+//     }
+// }
+
+
+// 28. 
+
+let arr = [1,2,3,4]
+for (let i = 1 ; i <= arr.length ; i++){
+    let temp
+    temp = arr[i]
+    arr[i]=arr[arr.length-i]
+    arr[arr.length-i]=temp
+}
+console.log(arr);
