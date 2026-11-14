@@ -10,9 +10,17 @@
     <button id="stop">stop</button>
 
     <script>
-        setTimeout(function(){
+        const sayAaryan = function(){
             console.log("Aaryan")  
-        },2000)
+        }
+       const changeH1 = function(){ document.querySelector("h1").innerHTML="I am the best"
+     }
+    const changeMe = setTimeout(changeH1,2000)
+    
+    document.querySelector("#stop").addEventListener("click", function(){
+        clearTimeout(changeMe)
+        console.log("Stopped")
+    })
     </script>
 </body>
 </html>
